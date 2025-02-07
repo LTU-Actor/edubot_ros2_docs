@@ -6,7 +6,7 @@ PRIZM ROS2 package: [prizm_ros2](https://github.com/LTU-Actor/prizm_ros2) <br>
 PRIZM Arduino microcode for prizm_ros2: [prizm_ros2_arduino](https://github.com/LTU-Actor/prizm_ros2_arduino) <br>
 EduBot LDS-01 LiDAR ROS2 Driver: [hls_lfcd_lds_driver](https://github.com/LTU-Actor/hls_lfcd_lds_driver) <br>
 ROS2 Webcam Publisher: TBD <br>
-EduBot ROS2 Examples: TBD <br>
+EduBot ROS2 Examples: [prizm_ros2_examples](https://github.com/rkaddis/prizm_ros2_examples)
 
 ## Setup
 
@@ -30,13 +30,13 @@ TBD
 ```
 EduBot ROS2 Examples
 ``` bash
-TBD
+git clone https://github.com/rkaddis/prizm_ros2_examples.git
 ```
 
 ### Step 2: Build the ROS2 Packages
 Build the EduBot ROS2 packages with the following lines:
 ``` bash
-colcon build --packages-select prizm_ros2 hls_lfcd_lds_driver
+colcon build --packages-select prizm_ros2 hls_lfcd_lds_driver prizm_ros2_examples
 ```
 ``` bash
 source <ros2 workspace>/install/setup.bash
