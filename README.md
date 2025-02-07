@@ -5,7 +5,7 @@ Documentation repository for the EduBot ROS2 compatibility project
 PRIZM ROS2 package: [prizm_ros2](https://github.com/LTU-Actor/prizm_ros2) <br>
 PRIZM Arduino microcode for prizm_ros2: [prizm_ros2_arduino](https://github.com/LTU-Actor/prizm_ros2_arduino) <br>
 EduBot LDS-01 LiDAR ROS2 Driver: [hls_lfcd_lds_driver](https://github.com/LTU-Actor/hls_lfcd_lds_driver) <br>
-ROS2 Webcam Publisher: TBD <br>
+ROS2 Webcam Publisher: [usb_cam](https://github.com/ros-drivers/usb_cam) <br>
 EduBot ROS2 Examples: [prizm_ros2_examples](https://github.com/LTU-Actor/prizm_ros2_examples)
 
 ## Setup
@@ -24,11 +24,11 @@ hls_lfcd_lds_driver
 ``` bash
 git clone https://github.com/LTU-Actor/hls_lfcd_lds_driver.git
 ```
-Camera Publisher
+usb_cam
 ``` bash
-TBD
+sudo apt install ros-jazzy-usb-cam
 ```
-EduBot ROS2 Examples
+prizm_ros2_examples
 ``` bash
 git clone https://github.com/LTU-Actor/prizm_ros2_examples.git
 ```
