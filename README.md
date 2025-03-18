@@ -42,6 +42,13 @@ colcon build --packages-select prizm_ros2 hls_lfcd_lds_driver prizm_ros2_example
 source <ros2 workspace>/install/setup.bash
 ```
 
+### Step 2.5: Allow Serial Communication
+In order to do serial communication, your user needs to be in the dialout group.
+```
+sudo adduser $USER dialout
+```
+You may need to reboot after adding your user to a new group.
+
 
 ### Step 3: Prepare the Tetrix PRIZM Controller
 **NOTE: If your PRIZM controller already has the prizm_ros2_arduino microcode installed, you may skip this step.**<br>
