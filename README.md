@@ -22,7 +22,7 @@ git clone https://github.com/LTU-Actor/prizm_ros2_arduino.git
 ```
 hls_lfcd_lds_driver
 ``` bash
-git clone https://github.com/LTU-Actor/hls_lfcd_lds_driver.git
+git clone https://github.com/LTU-Actor/hls_lfcd_lds_driver.git -b humble
 ```
 usb_cam
 ``` bash
